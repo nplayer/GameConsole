@@ -20,11 +20,10 @@ public class Main{
         System.out.println("nome??????????");
         nome = scan.next();//espera a resposta do usuario no console e armazena
         
-        System.out.println("estado atual = "+state);
+        System.out.println("seu nome = "+nome);
         
         //inicio
-        Main hw = new Main();//necessario para usar as classes secundarias
-        Inst inst1 = hw.new Inst();//
+        Inst inst1 = new Inst();//
         inst1.clc();
         System.out.println("start\n");
         //loop principal
@@ -41,29 +40,4 @@ public class Main{
         // BLABLA
         // TESTE
      }
-     //classes secundarias
-     public class Inst{//instruçoes
-    	
-    	public void msg(){
-        	System.out.println("\n1.aaaaaaa\n2.bbbbbbbb\n3.ccccc\n");
-    	}
-    	public void clc(){//tentativa de apagar o console usando linha vazias
-    		for(int i=0;i<15;i++){
-    			System.out.print("\n");//\n pula uma linha e deve estar dentro da msg
-    		}
-    	}
-     }
-     public class Monst{//para criar e alterar monstros
-         
-         //variaveis do mosntro
-         int st = 0;
-         int lv = 1;
-         int hp = 15;
-         int exp = 0;
-         int at = 5;
-         int def = 5;
-         int mag = 5;
-         int spd = 5;
-     }    
-
 }
