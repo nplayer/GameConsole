@@ -12,7 +12,6 @@ public class Main{
         int loop = 1;//mantem o loop principal do jogo
         int state = 0;//movimentaçao no cenario(zero seria o inicio)
         String nome;
-        String teste;
 
         //mensagens iniciais
         System.out.println("Hello World");
