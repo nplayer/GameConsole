@@ -33,6 +33,11 @@ public class Main{
         	state = scan.nextInt();
         	System.out.println("estado atual: " + state);
         }
+        
+        
+        
+        
+        // COMENTARIO TESTE GITHUB!!!!!!!
      }
      //classes secundarias
      public class Inst{//instruçoes
@@ -57,7 +62,6 @@ public class Main{
          int def = 5;
          int mag = 5;
          int spd = 5;
-     }
-     
+     }    
 
 }
